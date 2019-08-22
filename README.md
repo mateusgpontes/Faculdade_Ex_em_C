@@ -1,15 +1,15 @@
-##Exercícios em C
+#Exercícios em C
 
 Exercícios passados pelo meu professor da faculdade feitos em C.
 
-##Como executar
+#Como executar
 
 Entre em alguma pasta de sua escolha.<br/>
 Abra o terminal na pasta<br/>
 Caso esteja no Linux, execute o comando `gcc main.c -o main.out` para bhildar o código e logo após execute o comando `./main.out`<br/>
-Caso esteja no Windows, instale o gcc[deployment](https://wldomiciano.com/instalando-gcc-no-windows-com-mingw/), execute o comando `gcc main.c -o main.exe` e logo após execute o comando `./main.exe`
+Caso esteja no Windows, instale o [gcc](https://wldomiciano.com/instalando-gcc-no-windows-com-mingw/), execute o comando `gcc main.c -o main.exe` e logo após execute o comando `./main.exe`
 
-##Lista de Exercícios
+#Lista de Exercícios
 
 ### 1
 
