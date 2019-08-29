@@ -14,8 +14,8 @@ void media (char name[20]){
     printf("Qual sua nota no pim? ");
     scanf("%f", &pim);    
 
-    int mediaFinal = (np1 * 4 + np2 * 4 + pim * 2) / 10;
-    printf("%s sua media final foi %i\n",name , mediaFinal);
+    float mediaFinal = (np1 * 4 + np2 * 4 + pim * 2) / 10;
+    printf("%s sua media final foi %.2f\n",name , mediaFinal);
 }
 
 void main(){

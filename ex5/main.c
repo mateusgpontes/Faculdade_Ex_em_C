@@ -10,5 +10,5 @@ void main (){
     scanf("%f", &litros);
 
     float media = km / litros;
-    printf("Seu veiculo consome em media %f litros por km\n", media);
+    printf("Seu veiculo consome em media %.2f litros por km\n", media);
 }

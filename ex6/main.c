@@ -2,19 +2,19 @@
 
 void main (){
     char nome[20] = "";
-    int salario = 0;
-    int vendas = 0;
+    float salario = 0;
+    float vendas = 0;
 
     printf("Qual seu nome? ");
     scanf("%s", nome);
     printf("Qual seu salario? ");
-    scanf("%i", &salario);
+    scanf("%f", &salario);
     printf("Quanto voce vendeu(R$) esse mes?");
-    scanf("%i", &vendas);
+    scanf("%f", &vendas);
 
-    int comissao = vendas / 15;
-    int salarioFinal = salario + comissao;
+    float comissao = vendas / 15;
+    float salarioFinal = salario + comissao;
 
-    printf("%s voce recebe %i, vendeu %i, recebeu de comissao %i e voce recebeu no final do mes %i\n", nome, salario, vendas, comissao, salarioFinal);
+    printf("%s voce recebe %.2f, vendeu %.2f, recebeu de comissao %.2f e voce recebeu no final do mes %.2f\n", nome, salario, vendas, comissao, salarioFinal);
 
 }

@@ -5,6 +5,6 @@ void main () {
     printf("Quantos dolares voce tem? ");
     scanf("%f", &dolar);
 
-    float reais = 4.12 / dolar;
-    printf("Voce tem %fR$ em reais\n", reais);
+    float reais = dolar * 4.12;
+    printf("Voce tem %.2fR$ em reais\n", reais);
 }
