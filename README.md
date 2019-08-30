@@ -1,15 +1,15 @@
-#Exercícios em C
+## Exercícios em C
 
 Exercícios passados pelo meu professor da faculdade feitos em C.
 
-#Como executar
+## Como executar
 
 Entre em alguma pasta de sua escolha.<br/>
 Abra o terminal na pasta<br/>
 Caso esteja no Linux, execute o comando `gcc main.c -o main.out` para bhildar o código e logo após execute o comando `./main.out`<br/>
 Caso esteja no Windows, instale o [gcc](https://wldomiciano.com/instalando-gcc-no-windows-com-mingw/), execute o comando `gcc main.c -o main.exe` e logo após execute o comando `./main.exe`
 
-#Lista de Exercícios
+## Lista de Exercícios
 
 ### 1
 
@@ -66,3 +66,43 @@ Faça um algoritmo que receba um número e diga se ele está no intervalo entre 
 ### 14
 
 Desenhe um algoritmo que mostre na tela a tabuada do 3.
+
+### 15
+
+Escreva um programa que resolva o seguinte problema uma cópia de "xerox" custa R$0,25 por folha, mas acima de 100 folhas esse valor cai para R$0,20 por unidade. Dado o total de cópias, informe o valor a ser pago.
+
+### 16
+
+Escreva um programa que informe a categoria de um jogador de futebol, considerando sua idade: infantil(até 13 anos), juvenil(até 17 anos) ou sênior(acima de 17 anos).
+
+### 17
+
+Escreva um programa que teste uma dada senha.
+
+### 18
+
+Escreva um programa que leia três números do teclado e os imprima na tela na ordem inversa da entrada.
+
+### 19
+
+Escreva um programa que receba um número inteiro do teclado e diga se ele é par. Dica: Um número é par se o resto da divisão dele por 2 for zero.
+
+### 20
+
+Escreva um programa que calcule a área de um cículo de raoi r, testamdo se o valor do raio é menor que zero.
+
+### 21
+
+Escreva um programa que calcule a velocidade de queda de um corpo em função do tempo, partindo da velocidade zero. Dica: Use equações de aceleração da Física.
+
+### 22
+
+Escreva um programa que calcule as raízes de equação do 2 grau (ax2 + bx + c); os valores de a, b e c são fornecidos pelo usuário (veja a proposta de resolução mais adiante).
+
+### 23
+
+Escreva um programa que conceda um aumento de 10% ao sálario dos funcionários de uma empresa, os quais recebem até R\$1.000,00.
+
+### 24
+
+Desenhe um algoritmo que calcule a amplitude total (AT) de uma série de cinco números, considerando que AT = maior valor - menor valor.
