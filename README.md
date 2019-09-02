@@ -89,7 +89,7 @@ Escreva um programa que receba um número inteiro do teclado e diga se ele é pa
 
 ### 20
 
-Escreva um programa que calcule a área de um cículo de raoi r, testamdo se o valor do raio é menor que zero.
+Escreva um programa que calcule a área de um cículo de raio r, testando se o valor do raio é menor que zero.
 
 ### 21
 

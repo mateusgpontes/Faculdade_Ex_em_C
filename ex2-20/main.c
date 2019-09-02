@@ -6,6 +6,12 @@ void main (){
 
     printf("Escolha o raio para calcular o valor do comprimento da circunferência\n");
     scanf("%f", &raio);
+    
     float res = compi * raio;
-    printf("O resultado foi %.2f\n", res);
+    
+    if(res < 0){
+        printf("O resultado foi %.2f e e menor que 0\n", res);
+    }else{
+        printf("O resultado foi %.2f e e maior que 0\n", res);
+    }
 }
